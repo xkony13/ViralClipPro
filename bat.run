@@ -1,0 +1,6 @@
+@echo off
+python -m pip install --upgrade pip
+pip install wheel setuptools
+pip install numpy --prefer-binary
+pip install -r requirements.txt
+pause
